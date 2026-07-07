@@ -1,6 +1,13 @@
+# checks for GitHub Actions updates
 version: 2
 updates:
+  
   - package-ecosystem: "github-actions"
     directory: "/"
+    
+    # trigger at 8:25 AM EST every day
     schedule:
-      interval: "daily"
+      
+      interval: "cron"
+      cronjob: "25 8 * * *"
+      timezone: "America/New_York"
