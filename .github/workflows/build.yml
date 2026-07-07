@@ -5,8 +5,8 @@ on:
   
   schedule:
     
-    # trigger build at 8:35 AM EST every day
-    - cron: "35 8 * * *"
+    # trigger build at 2:35 PM EST every day
+    - cron: "35 14 * * *"
       timezone: "America/New_York"
   
   push:
