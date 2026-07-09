@@ -2,7 +2,7 @@
 
 set -oue pipefail
 
-# remove Fedora kernel and cleanup modules
+# remove Fedora kernel and modules
 dnf -y remove kernel "kernel-*"
 rm -rf /usr/lib/modules/*
 
