@@ -4,7 +4,7 @@ Custom Universal Blue test image by BlastPKMN
 
 ## Configuration
 
-Template Universal Blue test image with CachyOS kernel and custom software installations/removals
+Template Universal Blue test image with custom software installations/removals and CachyOS kernel
 
 ## Installation
 
