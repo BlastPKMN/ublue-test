@@ -26,6 +26,7 @@ modules:
       
         - fastfetch
         - fish
+        - micro
         
     # remove packages
     remove:
